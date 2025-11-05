@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Benson — Techie | Cyber Learner</title>
+  <style>
+    :root {
+      --accent:#ff3333;
+      --bg:#0b0f14;
+      --card:#121820;
+      --text:#e6eef6;
+      --muted:#8993a4;
+    }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 20px;
+    }
+    img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      margin-bottom: 12px;
+    }
+    h1 {
+      margin: 10px 0 5px;
+      font-size: 2.2rem;
+    }
+    p.subtitle {
+      color: var(--muted);
+      margin: 4px 0 10px;
+      font-size: 1.1rem;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a:hover { text-decoration: underline; }
+    main {
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    section {
+      margin: 40px 0;
+    }
+    .card {
+      background: var(--card);
+      padding: 18px;
+      border-radius: 10px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+      margin-bottom: 16px;
+    }
+    h2 {
+      border-left: 4px solid var(--accent);
+      padding-left: 10px;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://avatars.githubusercontent.com/u/0?v=4" alt="Benson">
+    <h1>Benson</h1>
+    <p class="subtitle">Linux Enthusiast • Cybersecurity Learner • Bash & Python Dev</p>
+    <p>
+      <a href="#projects">Projects</a> • 
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a> • 
+      <a href="#contact">Contact</a>
+    </p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <div class="card">
+        <p>Hey there 👋 I'm Benson, a 15-year-old tech lover from Tanzania with big dreams in hacking, cybersecurity, and Linux systems.  
+        I experiment with Arch, Debian, Kali, and learn how the real tech world works — from CLI to automation.</p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="card">
+        <strong>Find-Word Script</strong>
+        <p>A Bash project that searches the entire system for a specific word and shows exact file paths where it appears.</p>
+        <p><code>grep -rnw / -e "word"</code></p>
+      </div>
+      <div class="card">
+        <strong>Network Scan Automation</strong>
+        <p>Python tool using Nmap libraries to automate reconnaissance and scan targets efficiently.</p>
+      </div>
+      <div class="card">
+        <strong>System Health Monitor</strong>
+        <p>Bash script showing CPU, RAM, and disk usage in real time — built for Linux performance monitoring.</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="card">
+        <ul>
+          <li>Linux Administration (Arch, Kali, Debian)</li>
+          <li>Bash Scripting & Automation</li>
+          <li>Python Programming</li>
+          <li>Virtualization (VirtualBox, QEMU/KVM)</li>
+          <li>Networking & Ethical Hacking Basics</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="certs">
+      <h2>Achievements</h2>
+      <div class="card">
+        <p>✅ Completed Bash scripting course</p>
+        <p>🎯 Started Cybersecurity learning path</p>
+        <p>🧠 Practicing Linux system management & hacking tools</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="card">
+        <p>💬 Email: <a href="mailto:bensontechie@gmail.com">bensontechie@gmail.com</a></p>
+        <p>🔗 GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Built by Benson ⚡ | Linux is Freedom
+  </footer>
+</body>
+</html>
